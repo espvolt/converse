@@ -1,0 +1,15 @@
+#AppBody {
+    width: 100vw;
+    height: 100vh;
+    max-height: 100vh;
+    padding: 0px;
+    margin: 0px;
+}
+
+#AppBody #NavContainer {
+    height: 5%;
+}
+
+#AppBody #BodyContainer {
+    height: 95%;
+}

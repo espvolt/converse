@@ -1,0 +1,28 @@
+.submitArea {
+    height: 10%;
+    width: 100%;
+    display: flex;
+    flex: content;
+    justify-content: space-between;
+    flex-direction: row;
+    border-radius: 25px;
+    background-color: rgb(50, 50, 50);
+    padding: 0 10px 0 10px;
+    margin-top: 10px;
+    margin-bottom: 0px;
+}
+
+.submitAreaDiv {
+    flex-grow: 1;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin-right: 5px;
+}
+
+.submitAreaDiv textarea {
+    field-sizing: content;
+    padding: 10px;
+    width: 100%;
+    border-radius: 25px 0 0 25px;
+}
